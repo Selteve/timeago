@@ -1,0 +1,22 @@
+{
+  "name": "uukii-time-ago",
+  "version": "1.0.2",
+  "description": "一个简单的时间转换工具",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "time",
+    "ago",
+    "typescript"
+  ],
+  "author": "uukii",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^16.0.0",
+    "typescript": "^4.5.0"
+  }
+}
